@@ -39,8 +39,8 @@ for data in check_plagiarism():
 #comment new line
 #comment new line
 #comment
-#code to count lines of code
-# def count_lines():
-#     with open('app.py', 'r') as f:
-#         data = f.readlines()
-#         print(len(data))
+# code to count lines of code
+def count_lines():
+    with open('app.py', 'r') as f:
+        data = f.readlines()
+        print(len(data))
